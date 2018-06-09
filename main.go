@@ -1,13 +1,13 @@
 package main
 
 import (
+	elastic "gopkg.in/olivere/elastic.v3"
 	"fmt"
 	"encoding/json"
 	"net/http"
 	"log"
 	"strconv"
 	"reflect"
-	elastic "gopkg.in/olivere/elastic.v3"
 	"github.com/pborman/uuid"
 )
 
