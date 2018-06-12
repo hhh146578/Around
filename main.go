@@ -1,20 +1,20 @@
 package main
 
 import (
-    "context"
     "cloud.google.com/go/storage"
-	elastic "gopkg.in/olivere/elastic.v3"
-	"fmt"
+    "context"
 	"encoding/json"
-	"net/http"
-	"log"
-	"strconv"
-	"reflect"
+	"fmt"
 	"github.com/pborman/uuid"
+	elastic "gopkg.in/olivere/elastic.v3"
+	"log"
+	"net/http"
+	"reflect"
+	"strconv"
 	"io/ioutil"
 	"os"
-	"cloud.google.com/go/storage"
-	"golang.org/x/net/context"
+	// "cloud.google.com/go/storage"
+	// "golang.org/x/net/context"
 )
 
 type Location struct {
@@ -35,11 +35,11 @@ const (
 	TYPE = "post"
 	DISTANCE    = "200km"
 	// Needs to update
-	PROJECT_ID = "praxis-road-206502"
+	//PROJECT_ID = "praxis-road-206502"
 	//BT_INSTANCE = "around-post"
 	// Needs to update this URL if you deploy it to cloud.
 	ES_URL = "http://23.251.145.220:9200"
-	UCKET_NAME = "post-images-75015"
+	BUCKET_NAME = "post-images-146578"
 )	
 
 func main() {
