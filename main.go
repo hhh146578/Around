@@ -43,7 +43,7 @@ const (
 	PROJECT_ID = "praxis-road-206502"
 	BT_INSTANCE = "around-post"
 	// Needs to update this URL if you deploy it to cloud.
-	ES_URL = "http://35.226.89.192:9200"
+	ES_URL = "http://35.239.231.162:9200"
 	BUCKET_NAME = "post-images-146578"
 	API_PREFIX = "/api/v1"
 )
